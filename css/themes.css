@@ -1,0 +1,13 @@
+.them {
+    display: block;
+    border: none;
+    background-color: #FDEB6B;
+}
+
+@media (prefers-color-scheme: dark) {
+    .them {
+        display: block;
+        border: none;
+        background-color: #A59647;
+    }
+}

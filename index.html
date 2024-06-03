@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+<script>
+    var cookieValue = document.cookie.replace(
+        /(?:(?:^|.*;\s*)start\s*\=\s*([^;]*).*$)|^.*$/,
+        "$1",
+    );
+
+    if(cookieValue == 0){
+        location.replace("welcome.html"); 
+    } else if(cookieValue == 1){
+        location.replace("desktop.html");
+    };
+</script>
+<noscript>
+    <a href="desktop.html">Перейти на рабочий стол</a>
+</noscript>
